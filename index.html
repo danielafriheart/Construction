@@ -30,7 +30,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 col-md-5 justify-content-evenly">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
                     </li>
@@ -51,6 +51,7 @@
             </div>
         </div>
     </nav>
+
     <!-- Hero -->
     <div class="container-fluid justify-content-center align-items-center d-flex flex-column hero"
         id="scrollspyHeading1">
@@ -62,6 +63,7 @@
             </div>
         </div>
     </div>
+
     <!-- About us -->
     <div class="container-fluid py-5" id="scrollspyHeading2">
         <div class="container col-md-10">
@@ -100,6 +102,7 @@
             </div>
         </div>
     </div>
+
     <!-- Affiliated partners -->
     <div class="container-fluid py-5 mb-5 bg-light">
         <div class="container col-md-10 py-md-2">
@@ -155,53 +158,50 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="card" style="width: 100%;">
-                        <img src="/img/bgg.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark">
-                            <!-- <p class="card-text">Industrial Factory Construction</p> -->
+                        <img src="/img/wire.jpg" class="card-img-top" alt="...">
+                        <div class="card-img-overlay align-items-end d-flex justify-content-end">
+                            <p class="card-title text-light">Heavy duty Copper wire</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card" style="width: 100%;">
                         <img src="/img/metalsheet.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark">
-                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk -->
-                            <!-- of the card's content.</p> -->
+                        <div class="card-img-overlay align-items-end d-flex justify-content-end">
+                            <p class="card-title text-light">Metal Sheets</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row mt-md-">
+            <div class="row mt-md-4">
                 <div class="col-md-4">
                     <div class="card" style="width: 100%;">
                         <img src="/img/c.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark">
-                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk -->
-                            <!-- of the card's content.</p> -->
+                        <div class="card-img-overlay align-items-end d-flex justify-content-end">
+                            <p class="card-title text-light">Architectural Designs</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card" style="width: 100%;">
                         <img src="/img/c1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark">
-                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk -->
-                            <!-- of the card's content.</p> -->
+                        <div class="card-img-overlay align-items-end d-flex justify-content-end">
+                            <p class="card-title text-light">Industrial construction</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card" style="width: 100%;">
                         <img src="/img/bg1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark">
-                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk -->
-                            <!-- of the card's content.</p> -->
+                        <div class="card-img-overlay align-items-end d-flex justify-content-end">
+                            <p class="card-title text-light">Industrial construction</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- What we do -->
     <div class="container-fluid py-5 my-5">
         <div class="container col-md-10">
@@ -268,6 +268,7 @@
             </div>
         </div>
     </div>
+
     <!-- Footer -->
     <div class="container px-md-5" id="scrollspyHeading4">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 border-top">
@@ -316,11 +317,30 @@
             </div>
         </footer>
     </div>
-    <!-- <script>
-        const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-            target: '#scrollspy'
-        })
-    </script> -->
+
+    <!-- Toast -->
+    <div role="alert" aria-live="assertive" aria-atomic="true" class="toast fixed-bottom m-5 ms-auto"
+        data-bs-autohide="false">
+        <div class="toast-header">
+            <img src="..." class="rounded me-2" alt="...">
+            <strong class="me-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            Hello, world! This is a toast message.
+        </div>
+    </div>
+    <script>
+        window.onload = (event) => {
+            let myAlert = document.querySelector('.toast');
+            let bsAlert = new bootstrap.Toast(myAlert);
+            
+            setTimeout(function () {
+                bsAlert.show();
+            }, 5000);
+        };
+    </script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
