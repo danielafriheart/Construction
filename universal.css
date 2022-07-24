@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    /* outline: 1px solid silver; */
+}
+
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/img/cons.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    filter: grayscale(100%);
+}
+.card{
+    border: none !important;
+}
