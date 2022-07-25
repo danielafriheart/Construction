@@ -6,7 +6,12 @@
     scroll-behavior: smooth !important;
     /* outline: 1px solid silver; */
 }
-
+.icon{
+    width: 10% !important;
+}
+.footerIcon{
+    width: 30% !important;
+}
 .hero {
     height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/img/cons.jpg');
