@@ -23,42 +23,45 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2">
-    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold col-md-3 col-9" href="#"><img src="/img/skyline.png" alt=""
-                    class="img-fluid icon">
-                Builder Rhino<span class="text-warning fw-bold">.</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 col-md-5 justify-content-evenly">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading2">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading3">What we Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading4">Contact</a>
-                    </li>
-                </ul>
-                <button class="btn-outline-warning btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get a
-                    Quote
-                </button>
-            </div>
-        </div>
-    </nav>
+
 
     <!-- Hero -->
     <div class="container-fluid justify-content-center align-items-center d-flex flex-column hero"
         id="scrollspyHeading1">
-        <div class="container col-md-10  border-end border-3">
+
+        <nav
+            class="navbar navbar-expand-lg bg-transparent navbar-dark mb-5 border-bottom pb-3  sticky-top container col-md-10">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold col-md-3 col-9" href="#"><img src="/img/skyline.png" alt=""
+                        class="img-fluid icon">
+                    Builder Rhino<span class="text-warning fw-bold">.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 col-md-5 justify-content-evenly">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading3">What we Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading4">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn-outline-light btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get a
+                        Quote
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="container col-md-10 h-75 align-items-center d-flex">
             <div class=" col-md-6 text-light">
                 <h1 class="fw-bold display-3">Builder Rhino <span class="text-warning">.</span></h1>
                 <h2 class="my-5 fs-3">Levelling up the United States through infrastructure.</h2>
@@ -67,94 +70,135 @@
             </div>
         </div>
     </div>
-    <div class="container"  id="scrollspyHeading2"></div>
-    
+
+
+    <!-- Second navbar -->
+    <div class="container-fluid sticky-top bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light mb-5 border-bottom pb-3  container col-md-10">
+            <div class="container">
+                <a class="navbar-brand fw-bold col-md-3 col-9" href="#"><img src="/img/skyline.png" alt=""
+                        class="img-fluid icon">
+                    Builder Rhino<span class="text-warning fw-bold">.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 col-md-5 justify-content-evenly">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading2">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading3">What we Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#scrollspyHeading4">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn-outline-light btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get a
+                        Quote
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
     <!-- About us -->
-    <div class="container-fluid py-5">
-        <div class="container col-md-10">
-            <div class="row justify-content-between">
-                <div class="col-md-8">
-                    <span class="text-small text-muted">About Us</span>
-                    <h3 class="fw-bold">Unmatched <span class="text-warning">excellence</span> in construction</h3>
-                    <p class="my-4">We help our customers deliver projects of purpose that create a lasting positive
-                        legacy. These are projects that create jobs and grow economies; improve the resiliency of the
-                        world's infrastructure; connect communities to resources and opportunity; get us closer to net
-                        zero; protect U.S. and allied interests; tackle critical environmental challenges to protect
-                        people and the planet; and accelerate progress to make the world a cleaner, greener, safer
-                        place.</p>
-                    <div class="row align-items-end text-secondary">
-                        <div class="col">
-                            <h2 class="display-4 fw-bold">600+</h2>
-                            <p class="text-small text-secondary">Building constructions</p>
+    <div class="container-fluid" id="scrollspyHeading2">
+        <div class="container-fluid py-5">
+            <div class="container col-md-10">
+                <div class="row justify-content-between">
+                    <div class="col-md-8">
+                        <span class="text-small text-muted">About Us</span>
+                        <h3 class="fw-bold">Unmatched <span class="text-warning">excellence</span> in construction</h3>
+                        <p class="my-4">We help our customers deliver projects of purpose that create a lasting positive
+                            legacy. These are projects that create jobs and grow economies; improve the resiliency of
+                            the
+                            world's infrastructure; connect communities to resources and opportunity; get us closer to
+                            net
+                            zero; protect U.S. and allied interests; tackle critical environmental challenges to protect
+                            people and the planet; and accelerate progress to make the world a cleaner, greener, safer
+                            place.</p>
+                        <div class="row align-items-end text-secondary">
+                            <div class="col">
+                                <h2 class="display-4 fw-bold">600+</h2>
+                                <p class="text-small text-secondary">Building constructions</p>
+                            </div>
+                            <div class="col">
+                                <h2 class="display-4 fw-bold">20+</h2>
+                                <p class="text-small text-secondary">Industrial facilities</p>
+                            </div>
+                            <div class="col">
+                                <h2 class="display-4 fw-bold">130+</h2>
+                                <p class="text-small text-secondary">Infrastructure projects</p>
+                            </div>
                         </div>
-                        <div class="col">
-                            <h2 class="display-4 fw-bold">20+</h2>
-                            <p class="text-small text-secondary">Industrial facilities</p>
-                        </div>
-                        <div class="col">
-                            <h2 class="display-4 fw-bold">130+</h2>
-                            <p class="text-small text-secondary">Infrastructure projects</p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <div
+                            class=" align-items-center d-flex flex-md-column h-100 justify-content-md-center mt-2 mt-md-0 text-secondary">
+                            <h2 class="display-1 fw-bold me-3 me-md-0">15+</h2>
+                            <p class="text-small">Years of excellence</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 text-center">
-                    <div
-                        class=" align-items-center d-flex flex-md-column h-100 justify-content-md-center mt-2 mt-md-0 text-secondary">
-                        <h2 class="display-1 fw-bold me-3 me-md-0">15+</h2>
-                        <p class="text-small">Years of excellence</p>
+            </div>
+        </div>
+
+        <!-- Affiliated partners -->
+        <div class="container-fluid py-5 bg-light">
+            <div class="container col-md-10 py-md-2">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <span class="text-small text-muted">Trusted by</span>
+                        <h3 class="fw-bold">Affiliated Partners <span class="text-warning">:</span></h3>
+                    </div>
+                    <div class="col-md-9 mt-md-0 mt-4">
+                        <div class="row justify-content-md-end justify-content-center gap-3 gap-md-0">
+                            <div
+                                class="col-md-2 col-5 align-items-center justify-content-md-end d-flex border-start border-3">
+                                <img src="/img/aecom.png" alt="" class="img-fluid logo">
+                            </div>
+                            <div class="col-md-2 col-5 align-items-center justify-content-md-end d-flex">
+                                <img src="/img/turner.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-md-2 col-5 align-items-center justify-content-md-end d-flex">
+                                <img src="/img/keiwet.png" alt="" class="img-fluid logo">
+                            </div>
+                            <div class="col-md-2 col-5 align-items-center justify-content-md-end d-flex">
+                                <img src="/img/betchel.png" alt="" class="img-fluid logo w-50">
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="container-fluid py-5 ">
+            <div class="container col-md-10 ">
+                <div class="row">
+                    <div class="col d-flex">
+                        <p class="fw-bold text-secondary">Offices <span class="text-danger"><i
+                                    class="uil uil-location-point"></i></span></p>
+                        <p class="fw-bold text-secondary ms-3">Projects <span style="color: #3E7999;"><i
+                                    class="uil uil-location-point"></i></span></p>
+                    </div>
+                    <div class="col text-end text-secondary">
+                        <a href="#" class="text-secondary"> View all projects <i class="uil uil-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="/img/map.jpg" alt="" class="img-fluid w-100">
             </div>
         </div>
     </div>
 
-    <!-- Affiliated partners -->
-    <div class="container-fluid py-5 bg-light">
-        <div class="container col-md-10 py-md-2">
-            <div class="row align-items-center">
-                <div class="col">
-                    <span class="text-small text-muted">Trusted by</span>
-                    <h3 class="fw-bold">Affiliated Partners <span class="text-warning">:</span></h3>
-                </div>
-                <div class="col-md-9 mt-md-0 mt-4">
-                    <div class="row justify-content-md-end justify-content-center gap-3 gap-md-0">
-                        <div
-                            class="col-md-2 col-5 align-items-center justify-content-md-end d-flex border-start border-3">
-                            <img src="/img/aecom.png" alt="" class="img-fluid logo">
-                        </div>
-                        <div class="col-md-2 col-5 align-items-center justify-content-md-end d-flex">
-                            <img src="/img/turner.png" alt="" class="img-fluid">
-                        </div>
-                        <div class="col-md-2 col-5 align-items-center justify-content-md-end d-flex">
-                            <img src="/img/keiwet.png" alt="" class="img-fluid logo">
-                        </div>
-                        <div class="col-md-2 col-5 align-items-center justify-content-md-end d-flex">
-                            <img src="/img/betchel.png" alt="" class="img-fluid logo w-50">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- <div class="container-fluid py-5 d-none">
-        <div class="container col-md-10 ">
-            <div class="row">
-                <div class="col d-flex">
-                    <p class="fw-bold text-secondary">Offices <span class="text-danger"><i
-                                class="uil uil-location-point"></i></span></p>
-                    <p class="fw-bold text-secondary ms-3">Projects <span style="color: #3E7999;"><i
-                                class="uil uil-location-point"></i></span></p>
-                </div>
-                <div class="col text-end text-secondary">
-                    <a href="#" class="text-secondary"> View all projects <i class="uil uil-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <img src="/img/map.jpg" alt="" class="img-fluid w-100">
-        </div>
-    </div> -->
     <div class="container" id="scrollspyHeading3"></div>
 
     <!-- Services -->
@@ -298,8 +342,8 @@
                         </li>
                         <h5>Address</h5>
 
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Alias, architecto?</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">5th avenue New York
+                                City</a></li>
                     </ul>
                 </div>
                 <div class="modal-footer">
@@ -351,8 +395,8 @@
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">builderrhinocc@gmail.com</li>
                     <li class="nav-item mb-2">+1 (216) 309-1778</li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Alias, architecto?</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">5th avenue New York City</a>
+                    </li>
                 </ul>
             </div>
         </footer>
