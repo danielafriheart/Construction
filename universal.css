@@ -25,5 +25,13 @@
     border: none !important;
 }
 .active{
-    color: #fff !important;
+    color: #34495E !important;
+    font-weight: bold;
+}
+/* .button{
+    background-color: #34495E;
+    color: #fff;
+} */
+.custom{
+    color: #1B4F72;
 }
