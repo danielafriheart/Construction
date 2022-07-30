@@ -4,14 +4,17 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
     scroll-behavior: smooth !important;
-    /* outline: 1px solid silver; */
+    outline: 1px solid silver;
 }
-.icon{
+
+.icon {
     width: 10% !important;
 }
-.footerIcon{
+
+.footerIcon {
     width: 30% !important;
 }
+
 .hero {
     height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('/img/cons.jpg');
@@ -19,20 +22,39 @@
     background-size: cover;
     background-position: center;
 }
-.logo{
+
+.logo {
     filter: grayscale(100%);
 }
-.card{
+
+.card {
     border: none !important;
 }
-.active{
-    color: #34495E !important;
+
+.active {
+    /* color: #34495E !important; */
     font-weight: bold;
+    /* text-decoration: underline; */
 }
+
 /* .button{
     background-color: #34495E;
     color: #fff;
 } */
-.custom{
+.custom {
     color: #000080;
+}
+nav{
+    background-color: transparent;
+}
+nav a{
+    color: #fff;
+}
+.scrolling-active {
+    background-color: #fff;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+    color: #000 !important;
+}
+.scrolling-active nav a{
+    color: #333 !important;
 }
