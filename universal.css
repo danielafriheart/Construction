@@ -34,7 +34,12 @@
 .custom {
     color: #000080;
 }
-
+.socials a{
+    color: lightgrey !important;
+}
+.socials a:hover{
+    color: #fff !important;
+}
 nav {
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
